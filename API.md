@@ -42,7 +42,7 @@ Returns a JSON list with all object IDs to identify by ID which object type a sp
 
 Returns a list of all items of an object type or relation type as JSON.
 
-For the list of objects see the newer [OPENAPI documentation](openapi.xml).
+For the list of objects see the newer [OPENAPI documentation](openapi.yml).
 
 *Attention: Because of performance issues only 10'000 entries are returned.
 If more are requested please use the `limit` parameter.*
@@ -90,7 +90,7 @@ The following parameters are for relation lists:
 
 Returns a information of a single object.
 
-For retrieving an object see the newer [OPENAPI documentation](openapi.xml).
+For retrieving an object see the newer [OPENAPI documentation](openapi.yml).
 
 `/api/<object-type>/<object-id>`
 
@@ -98,7 +98,7 @@ For retrieving an object see the newer [OPENAPI documentation](openapi.xml).
 
 Returns a part of a single object as xml.
 
-For retrieving a part of an object see the newer [OPENAPI documentation](openapi.xml).
+For retrieving a part of an object see the newer [OPENAPI documentation](openapi.yml).
 
 `/api/<object-type>/<object-id>/<object-part>`
 
